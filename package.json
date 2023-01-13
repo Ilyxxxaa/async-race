@@ -17,7 +17,7 @@
   "keywords": [],
   "author": "Ilya Kotsur",
   "license": "ISC",
-  "homepage": "https://rolling-scopes-school.github.io/ilyxxxaa-JSFE2022Q1/async-race/",
+  "homepage": "ilyxxxaa.github.io/async-race/",
   "devDependencies": {
     "@types/wnumb": "^1.2.1",
     "@typescript-eslint/eslint-plugin": "^5.30.0",

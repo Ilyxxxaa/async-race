@@ -30,12 +30,12 @@ class App {
   }
 
   start() {
-    alert('Самооценка в консоли');
-    console.log('%cOnline-store-task', 'font-weight: bold; font-size: 18px');
-    console.log('%c190/190', 'font-weight: bold; font-size: 18px');
-    console.log(
-      'Selftest: \n https://ilyxxaa.notion.site/Async-race-self-test-4a0ddcb7014244f5a74949622aa8cf9d\n\n',
-    );
+    // alert('Самооценка в консоли');
+    // console.log('%cOnline-store-task', 'font-weight: bold; font-size: 18px');
+    // console.log('%c190/190', 'font-weight: bold; font-size: 18px');
+    // console.log(
+    //   'Selftest: \n https://ilyxxaa.notion.site/Async-race-self-test-4a0ddcb7014244f5a74949622aa8cf9d\n\n',
+    // );
 
     this.header.drawHeader(this.drawGarage.drawGarage, this.drawWinners.drawWinners, this.state);
     this.drawWinners.drawWinners(this.state);
