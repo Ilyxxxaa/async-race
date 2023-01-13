@@ -1,0 +1,48 @@
+.winnersContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.winnersTitle {
+  margin-bottom: 20px;
+}
+
+.winnersPageNumber {
+  margin-bottom: 20px;
+}
+
+.winnersTable {
+  margin-bottom: 30px;
+  text-align: center;
+  color: #3872be;
+  min-height: 200px;
+}
+
+th {
+  color: black;
+  font-size: 16px;
+  padding: 10px;
+  width: 100px;
+  border-bottom: 3px solid #3872be;
+}
+.tableHead {
+  cursor: default;
+}
+
+.tableHeadCar {
+  width: 200px;
+}
+.tableHeadWins,
+.tableHeadTime {
+  cursor: pointer;
+}
+
+td {
+  padding: 3px;
+}
+
+td svg {
+  width: 80px;
+}

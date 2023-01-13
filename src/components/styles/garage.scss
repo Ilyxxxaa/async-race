@@ -1,0 +1,206 @@
+.garageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.garageTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 14px;
+  font-size: 26px;
+}
+
+.garageTitleName {
+  margin-right: 5px;
+}
+
+.garagePageAmount {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.garageCars {
+  min-height: 500px;
+  width: 100%;
+}
+
+.garagePagination {
+  display: flex;
+  justify-content: space-between;
+}
+.car__field {
+  height: 110px;
+  border: none;
+  border-bottom: 5px solid black;
+  border-bottom-style: dotted;
+  margin-bottom: 5px;
+}
+
+.car__field-top {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.car__field-top-btn {
+  width: 100px;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  text-decoration: none;
+  color: #385898;
+  background-color: #e7f3ff;
+  appearance: none;
+  touch-action: manipulation;
+  &:focus-visible {
+    box-shadow: 0 0 0 2px #666;
+  }
+  &:hover {
+    background-color: #dbe7f2;
+  }
+  &:active {
+    transform: scale(0.96);
+  }
+  &:disabled {
+    pointer-events: none;
+    opacity: 0.65;
+  }
+}
+.car__field-remove {
+  margin-right: 20px;
+  &:hover {
+    color: red;
+    font-weight: bold;
+  }
+}
+
+.car__field-model {
+  font-weight: bold;
+}
+
+.car__field-main {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  position: relative;
+}
+
+.car__field-btn {
+  align-self: flex-start;
+  cursor: pointer;
+}
+.car-image {
+  position: absolute;
+  width: 120px;
+  left: 60px;
+  bottom: -47px;
+  transform: translateX(0px);
+}
+
+.flag-image {
+  width: 50px;
+  position: absolute;
+  bottom: -45px;
+  right: 100px;
+}
+
+.pagination-btn {
+  width: 100px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 0 15px 0 0;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #385898;
+  background-color: #e7f3ff;
+  cursor: pointer;
+  appearance: none;
+  touch-action: manipulation;
+}
+.pagination-btn:focus-visible {
+  box-shadow: 0 0 0 2px #666;
+}
+.pagination-btn:hover {
+  background-color: #dbe7f2;
+}
+.pagination-btn:active {
+  transform: scale(0.96);
+}
+.pagination-btn:disabled {
+  pointer-events: none;
+  opacity: 0.65;
+}
+
+.car__field-btn {
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  margin-right: 10px;
+  border-radius: 4px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  vertical-align: top;
+  color: #fff;
+  cursor: pointer;
+  appearance: none;
+  touch-action: manipulation;
+  overflow: hidden;
+
+  &:focus-visible {
+    box-shadow: 0 0 0 3px lightskyblue;
+  }
+  &:hover {
+    opacity: 0.88;
+  }
+  &:active {
+    line-height: 32px;
+  }
+  &:disabled {
+    pointer-events: none;
+    opacity: 0.65;
+  }
+}
+
+.car-start-btn {
+  background-color: #5181b8;
+}
+
+.car-stop-btn {
+  background-color: #dfe6ed;
+  color: #55677d;
+}
+
+.garageModal {
+  position: fixed;
+  top: 250px;
+  padding-top: 200px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  justify-content: center;
+  background-color: transparent;
+  font-size: 50px;
+  font-weight: bold;
+  display: none;
+}
+.garageModal--active {
+  display: flex;
+}

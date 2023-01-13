@@ -1,0 +1,14 @@
+@import 'reset';
+
+body {
+  min-height: 100vh;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 30px 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+@import 'header';
+@import 'carSettings';
+@import 'garage';
+@import 'winners';

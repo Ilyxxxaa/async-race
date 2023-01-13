@@ -1,0 +1,112 @@
+.carSettingsContainer {
+  max-width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 10px 10px;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 15px;
+}
+
+.sectionUpdate {
+  padding-bottom: 10px;
+}
+
+.input {
+  margin-right: 10px;
+  width: 200px;
+  text-transform: capitalize;
+}
+
+.color-input {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn1 {
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  margin-right: 10px;
+  border-radius: 4px;
+  height: 30px;
+  width: 80px;
+  background-color: #5181b8;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  vertical-align: top;
+  color: #fff;
+  cursor: pointer;
+  appearance: none;
+  touch-action: manipulation;
+  overflow: hidden;
+
+  &:focus-visible {
+    box-shadow: 0 0 0 3px lightskyblue;
+  }
+  &:hover {
+    opacity: 0.88;
+  }
+  &:active {
+    line-height: 32px;
+  }
+  &:disabled {
+    pointer-events: none;
+    opacity: 0.65;
+  }
+}
+
+.btn2 {
+  width: 100px;
+  margin-right: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  font-size: 19px;
+  text-decoration: none;
+  color: #385898;
+  background-color: #e7f3ff;
+  appearance: none;
+  touch-action: manipulation;
+  &:focus-visible {
+    box-shadow: 0 0 0 2px #666;
+  }
+  &:hover {
+    background-color: #dbe7f2;
+  }
+  &:active {
+    transform: scale(0.96);
+  }
+  &:disabled {
+    pointer-events: none;
+    opacity: 0.65;
+  }
+}
+.btnGenerateCars {
+  font-size: 14px;
+}
+
+.resetBtn {
+  &:hover {
+    color: red;
+    font-weight: bold;
+  }
+}
+
+.btnStartRace {
+  background-color: #3ac41b;
+  color: white;
+  &:hover {
+    background-color: #37e50b;
+  }
+}
